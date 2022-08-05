@@ -176,6 +176,9 @@ select {
   right: 0%;
   background-color: #2861bf;
 }
+.text-black {
+  color: #000;
+}
 header {
   position: fixed;
   z-index: 100;
