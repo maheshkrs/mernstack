@@ -145,9 +145,9 @@ body {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   color: #d3c5c5;
-  line-height: 35px;
+  line-height: 28px;
   margin-bottom: 0;
 }
 
@@ -196,6 +196,9 @@ header {
     ),
     url(../images/bg-image.jpg); */
 }
+.fw-600 {
+  font-weight: 600;
+}
 .header-nav .developer {
   color: #fff;
   font-size: 18px;
@@ -227,12 +230,13 @@ header {
   color: #bbb3af;
 }
 .about-section {
-  background-color: #eeb902;
+  background-color: #cef7a0;
 }
 .team-member img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   width: 300px;
   height: 300px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
+  /* border: 7px solid rgba(0, 0, 0, 0.1); */
 }
 .skill-logo {
   width: 85px;
@@ -281,5 +285,14 @@ footer {
   background-color: #474647;
 }
 .page-section {
-  background-color: #97cc04;
+  background-color: #d4f2db;
+}
+
+.develeoper-name {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.max-width450 {
+  max-width: 550px;
 }
