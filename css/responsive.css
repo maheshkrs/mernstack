@@ -1,0 +1,32 @@
+@media only screen and (max-width: 767px) {
+  .team-member img {
+    width: 150px;
+    height: 150px;
+  }
+  .intro-lead-in {
+    font-size: 28px;
+  }
+
+  .intro-heading {
+    font-size: 40px;
+  }
+  .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .btn-xl {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .content {
+    max-width: 100%;
+    min-width: 100%;
+    padding: 15px;
+  }
+  .port-logo {
+    height: auto;
+  }
+  .banner-section {
+    background-position: top;
+  }
+}

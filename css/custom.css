@@ -1,0 +1,264 @@
+/*====================================== reset.css is here ========================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+*:after,
+*:before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+}
+.clear {
+  clear: both;
+  font-size: 1px;
+  line-height: 1px;
+  display: block;
+  height: 0;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.last {
+  margin: 0 !important;
+}
+.pad_last {
+  padding: 0 !important;
+}
+.no_bg {
+  background: none !important;
+}
+.no_bor {
+  border: 0 none !important;
+}
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup,
+figure {
+  display: block;
+}
+/**************************************************************************************/
+a {
+  color: #000;
+  text-decoration: none;
+  outline: 0 none !important;
+}
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: none;
+  outline: 0 none !important;
+}
+h1 {
+  font-size: 36px;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 10px;
+}
+/*---------------------------------------------------*/
+html {
+}
+body {
+  font-weight: 300;
+  color: #333333;
+  font-size: 16px;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*-----------LayOut Start here-----------------------*/
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding-top: 120px;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+  color: #d3c5c5;
+  line-height: 35px;
+  margin-bottom: 0;
+}
+
+/* -------Don't Remove this---------------*/
+input,
+textarea,
+button,
+select {
+  /*-webkit-appearance:noneSafari/Chrome*/
+  -moz-appearance: none; /*Firefox*/
+  -ms-appearance: none; /*IE*/
+  -o-appearance: none; /*Opera*/
+  appearance: none;
+  -webkit-border-radius: 0;
+}
+
+/* header .header-nav {
+  padding: 12px 0 12px 0;
+} */
+header {
+  background-color: #0e141e;
+  padding: 10px 0 10px 0;
+  /* background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url(../images/bg-image.jpg); */
+}
+.header-nav .developer {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 1px;
+}
+.menus .nav-item a.nav-link {
+  color: #fff;
+}
+.content {
+  max-width: 900px;
+  min-width: 900px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-section {
+  background: linear-gradient(
+      to bottom,
+      rgb(30 28 27) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url(../images/bg-image.jpg);
+  height: 592px;
+  position: relative;
+}
+
+.banner-section h1 {
+  color: #bbb3af;
+}
+.about-section {
+  background-color: #0e141e;
+}
+.team-member img {
+  width: 300px;
+  height: 300px;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+}
+.skill-logo {
+  width: 85px;
+  height: 65px;
+}
+.skill-logo-bg {
+  background-color: #fff;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.port-logo {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #cacbcd;
+  border-radius: 10px;
+}
+/* .skilled .nav-item {
+  padding: 0 25px 0 0;
+} */
+.navbar-toggler-icon {
+  background-image: url(../images/hamburgur-menu.svg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+.header-nav button[aria-expanded="true"] .navbar-toggler-icon {
+  background-image: url(../images/close-header-menu.svg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.content-section {
+  background-color: #0e141e;
+  background-image: url(../images/map-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.portfolio_section {
+  background: linear-gradient(
+    to bottom,
+    rgb(30 28 27) 0%,
+    rgba(92, 77, 66, 0.8) 100%
+  );
+}
+footer {
+  background-color: #0e141e;
+}
