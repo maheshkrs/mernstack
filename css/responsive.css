@@ -29,4 +29,8 @@
   .banner-section {
     background-position: top;
   }
+  header {
+    background-color: #2d7dd2;
+    position: static;
+  }
 }

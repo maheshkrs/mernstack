@@ -167,8 +167,24 @@ select {
 /* header .header-nav {
   padding: 12px 0 12px 0;
 } */
+.scroll-header header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0%;
+  right: 0%;
+  background-color: #2861bf;
+}
 header {
-  background-color: #0e141e;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0%;
+  right: 0%;
+
+  /* background-color: #0e141e; */
   padding: 10px 0 10px 0;
   /* background: linear-gradient(
       to bottom,
@@ -196,11 +212,11 @@ header {
 .banner-section {
   background: linear-gradient(
       to bottom,
-      rgb(30 28 27) 0%,
-      rgba(92, 77, 66, 0.8) 100%
+      rgb(45 125 2100) 0%,
+      rgba(45, 125, 210, 0) 100%
     ),
     url(../images/bg-image.jpg);
-  height: 592px;
+  height: 100vh;
   position: relative;
 }
 
@@ -208,7 +224,7 @@ header {
   color: #bbb3af;
 }
 .about-section {
-  background-color: #0e141e;
+  background-color: #eeb902;
 }
 .team-member img {
   width: 300px;
@@ -234,6 +250,9 @@ header {
 /* .skilled .nav-item {
   padding: 0 25px 0 0;
 } */
+.skilled {
+  list-style: none;
+}
 .navbar-toggler-icon {
   background-image: url(../images/hamburgur-menu.svg);
   background-position: 100%;
@@ -247,18 +266,17 @@ header {
   height: 20px;
 }
 .content-section {
-  background-color: #0e141e;
+  background-color: #474647;
   background-image: url(../images/map-image.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 .portfolio_section {
-  background: linear-gradient(
-    to bottom,
-    rgb(30 28 27) 0%,
-    rgba(92, 77, 66, 0.8) 100%
-  );
+  background: #f45d01;
 }
 footer {
-  background-color: #0e141e;
+  background-color: #474647;
+}
+.page-section {
+  background-color: #97cc04;
 }
