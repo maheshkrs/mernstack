@@ -140,7 +140,7 @@ body {
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1220px;
   margin: 0 auto;
 }
 
@@ -174,7 +174,12 @@ select {
   top: 0;
   left: 0%;
   right: 0%;
-  background-color: #2861bf;
+  /* background: linear-gradient(
+    to bottom,
+    rgb(223 192 100) 0%,
+    rgba(223, 192, 100, 0.8) 100%
+  ); */
+  background-color: #3f51b5;
 }
 .text-black {
   color: #000;
@@ -208,20 +213,23 @@ header {
   color: #fff;
 }
 .content {
-  max-width: 900px;
-  min-width: 900px;
+  /* max-width: 900px;
+  min-width: 900px; */
   position: absolute;
-  left: 50%;
+  /* left: 50%; */
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
 }
 .banner-section {
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
-      rgb(45 125 2100) 0%,
-      rgba(45, 125, 210, 0) 100%
+      rgb(223 192 100) 0%,
+      rgba(223, 192, 100, 0.1) 100%
     ),
-    url(../images/bg-image.jpg);
+    url(../images/bg-image.jpg); */
+  /* background-image: url("../images/bg-image.jpg");
+  background-repeat: no-repeat; */
+  background-color: #3f51b5;
   height: 100vh;
   position: relative;
 }

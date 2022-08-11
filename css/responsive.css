@@ -30,7 +30,14 @@
     background-position: top;
   }
   header {
-    background-color: #2d7dd2;
+    /* background: linear-gradient(
+      to bottom,
+      rgb(223 192 100) 0%,
+      rgba(223, 192, 100, 0.8) 100%
+    ); */
+    background-color: #3f51b5;
+  }
+  .scroll-header header {
     position: static;
   }
 }
